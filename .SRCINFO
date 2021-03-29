@@ -2,17 +2,19 @@
 # Wed Jan 31 08:30:34 UTC 2018
 pkgbase = camorama
 	pkgdesc = Webcam application featuring various image filters
-	pkgver = 0.19
-	pkgrel = 7
-	url = https://git.gnome.org/browse/archive/camorama
+	pkgver = 0.20.7
+	pkgrel = 1
+	url = https://github.com/alessio/camorama
 	arch = x86_64
+	arch = arm
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
 	license = GPL2
 	makedepends = intltool
 	depends = libgnomeui
-	source = camorama-0.19.tar.xz::https://git.gnome.org/browse/archive/camorama/snapshot/camorama-0-19.tar.xz
-	source = camorama.patch
-	md5sums = 803f057da811162104133883541fbcb0
-	md5sums = 03892e0cad8402f578579214fb9b054a
+	source = camorama-0.20.7.tar.gz::https://github.com/alessio/camorama/archive/refs/tags/0.20.7.tar.gz
+	md5sums = d64369337a436806da9134f36ce4f449
 
 pkgname = camorama
 
